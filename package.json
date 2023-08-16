@@ -1,0 +1,30 @@
+{
+    "name": "pixso-ssg-component",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite dev --host",
+        "build": "tsx ./scripts/build",
+        "generate": "tsx ./scripts/generate",
+        "find:cmp": "tsx ./scripts/find findComponent"
+    },
+    "dependencies": {
+        "@vue/server-renderer": "^3.3.4",
+        "vue": "^3.3.4",
+        "vue-router": "^4.2.2"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.1",
+        "@vitejs/plugin-vue": "^4.1.0",
+        "co-body": "^6.1.0",
+        "fast-glob": "^3.3.0",
+        "fs-extra": "^11.1.1",
+        "jiti": "^1.18.2",
+        "prettier": "^3.0.1",
+        "sass": "^1.63.6",
+        "tsx": "^3.12.7",
+        "typescript": "^5.1.6",
+        "vite": "^4.3.9"
+    }
+}
